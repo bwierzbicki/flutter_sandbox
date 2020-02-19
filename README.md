@@ -1,6 +1,6 @@
-# flutter_calendar
+# flutter_sandbox
 
-A new Flutter application.
+"Learn by doing" app.
 
 ## Getting Started
 
