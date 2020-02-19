@@ -1,4 +1,4 @@
-package com.pgssoft.flutter_calendar
+package com.pgssoft.flutter_sandbox
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

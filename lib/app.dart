@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_calendar/modules/provider/screens/provider_screen.dart';
-import 'package:flutter_calendar/modules/workflow/screens/workflow_screen.dart';
 
 import './home_screen.dart';
+import './modules/provider/screens/provider_screen.dart';
+import './modules/workflow/screens/workflow_screen.dart';
 
 class App extends StatelessWidget {
   // This widget is the root of your application.

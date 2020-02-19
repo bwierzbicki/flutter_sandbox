@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_calendar/modules/provider/screens/provider_screen.dart';
-import 'package:flutter_calendar/modules/workflow/screens/workflow_screen.dart';
+
+import './modules/provider/screens/provider_screen.dart';
+import './modules/workflow/screens/workflow_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({Key key, this.title}) : super(key: key);
