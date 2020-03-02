@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_sandbox/modules/itunes/screens/itunes_screen.dart';
 
 import './modules/provider/screens/provider_screen.dart';
 import './modules/workflow/screens/workflow_screen.dart';
@@ -41,6 +42,11 @@ class HomeScreen extends StatelessWidget {
                 context,
                 'Provider pattern',
                 ProviderScreen.routeName,
+              ),
+              _buildButton(
+                context,
+                'iTunes search',
+                ItunesScreen.routeName,
               ),
               _buildButton(
                 context,
