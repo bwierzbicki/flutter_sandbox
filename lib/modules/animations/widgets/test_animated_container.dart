@@ -82,7 +82,6 @@ class _TestAnimatedContainerState extends State<TestAnimatedContainer> {
               ),
             ],
           ),
-          //{Color lightColor: const Color(0xFF42A5F5), Color darkColor: const Color(0xFF0D47A1), Color textColor: const Color(0xFF616161), FlutterLogoStyle style: FlutterLogoStyle.markOnly, EdgeInsets margin: EdgeInsets.zero}),
         ),
       ),
     );
