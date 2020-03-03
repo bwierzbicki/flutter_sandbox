@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_sandbox/modules/animations/screens/animations_screen.dart';
 import 'package:flutter_sandbox/modules/itunes/screens/itunes_screen.dart';
 
 import './modules/provider/screens/provider_screen.dart';
@@ -47,6 +48,11 @@ class HomeScreen extends StatelessWidget {
                 context,
                 'iTunes search',
                 ItunesScreen.routeName,
+              ),
+              _buildButton(
+                context,
+                'Animations',
+                AnimationsScreen.routeName,
               ),
               _buildButton(
                 context,
